@@ -6,11 +6,7 @@ import searchRoute from "./routes/search.js";
 
 const server = express();
 
-server.use(
-	cors({
-		origin: "https://calibr-nextjs.vercel.app/",
-	})
-);
+server.use(cors());
 server.use(express.json());
 
 server.use("/books", booksRoute);
