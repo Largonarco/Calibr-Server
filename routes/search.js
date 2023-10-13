@@ -7,8 +7,6 @@ router.get("/", async (req, res) => {
 	try {
 		const { query } = req.query;
 
-		console.log(query);
-
 		const results = await elasticClient.search({
 			query: {
 				multi_match: {

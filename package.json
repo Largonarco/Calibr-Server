@@ -7,8 +7,7 @@
 	"license": "MIT",
 	"private": false,
 	"scripts": {
-		"start": "node server.js ",
-		"dev": "nodemon server.js"
+		"start": "node server.js "
 	},
 	"dependencies": {
 		"@elastic/elasticsearch": "^8.10.0",
